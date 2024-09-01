@@ -1,0 +1,86 @@
+.header {
+    margin:auto;
+    width: auto;
+    height: 150px;
+    background-color: #ffe4c4;
+    
+    
+}
+.headerMenu
+{
+    margin:auto;
+    width: auto;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Flexbox düzenini aktif eder */
+    gap: 50px; /* Bağlantılar arasındaki boşluğu ayarlar */
+    
+    font-size: 25px;
+    
+}
+.headerMenu a
+{
+    color:cadetblue;
+    text-decoration: none;
+    
+    
+}
+.headerMenu a:hover {
+    color:brown;
+}
+
+.middle div {
+    display:inline-table;
+    margin:auto;
+    height: 850px;
+        
+}
+.middlePartOne {
+    margin: left;
+    width: 40%;
+    height: 650px;
+    background-color: rgb(165, 148, 141);
+    
+}
+.middlePartTwo {
+    margin:right;
+    width: 60%; 
+    height: 650px;
+    background-color: #ffe4c4;
+}
+
+.middleProfile {
+    margin-left: 500px;
+    margin-top: 125px;
+    width: 20%;
+    height: 500px;
+    background-color: #cab0a0;
+    position: absolute;
+    border-radius: 10%;
+}
+.profilePic
+{
+    
+    margin-left: 100px;
+    margin-top: 35px;
+    width: 50%;
+    height: 175px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    
+}
+.profileName
+{
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+}
+
+.footer { 
+width: auto;
+height: 150px;
+background-color: #ffe4c4;
+}
